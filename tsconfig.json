@@ -1,0 +1,39 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "module": "commonjs",
+    "declaration": false,
+    "noEmit": true,
+    "downlevelIteration": true,
+    "esModuleInterop": true,
+    "experimentalDecorators": true,
+    "importHelpers": false,
+    "inlineSourceMap": true,
+    "lib": [
+      "es2015",
+      "es2016.array.include",
+      "es5",
+      "dom"
+    ],
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "noEmitOnError": true,
+    "noFallthroughCasesInSwitch": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noImplicitReturns": true,
+    "importsNotUsedAsValues": "error",
+    "strict": true,
+    "skipLibCheck": true,
+    "sourceMap": false,
+    "types": [
+      "jest",
+      "node",
+      "react",
+      "cypress"
+    ],
+    "include": [
+      "**/*.ts"
+    ]
+  }
+}

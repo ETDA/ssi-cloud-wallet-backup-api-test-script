@@ -1,0 +1,62 @@
+{
+  "devDependencies": {
+    "@babel/core": "^7.12.9",
+    "@babel/preset-env": "^7.12.7",
+    "@babel/preset-typescript": "^7.10.4",
+    "@testing-library/jest-dom": "^5.11.4",
+    "@types/jest": "^26.0.12",
+    "babel-jest": "^26.3.0",
+    "babel-loader": "^8.2.2",
+    "core-js": "^3.8.0",
+    "cypress": "5.1.0",
+    "ec-key": "0.0.4",
+    "jest": "^26.4.2",
+    "jest-html-reporter": "^3.2.0",
+    "jest-html-reporters": "^2.1.2",
+    "k6": "0.0.0",
+    "typescript": "^4.0.2",
+    "webpack": "^5.9.0",
+    "webpack-cli": "^4.2.0"
+  },
+  "scripts": {
+    "ui": "cypress open",
+    "api": "jest",
+    "test": "jest"
+  },
+  "dependencies": {
+    "@types/uuid": "^8.3.0",
+    "axios": "^0.20.0",
+    "chai": "^4.2.0",
+    "crypto-js": "^4.0.0",
+    "faker": "^5.5.3",
+    "form-data": "^3.0.0",
+    "gulp": "^4.0.2",
+    "gulp-mocha": "^6.0.0",
+    "js-sha256": "^0.9.0",
+    "jsonwebtoken": "^8.5.1",
+    "keypair": "^1.0.3",
+    "knex": "^0.21.5",
+    "mssql": "^6.2.1",
+    "mysql": "^2.18.1",
+    "mysql2": "^2.1.0",
+    "node-rsa": "^1.1.1",
+    "oracle": "^0.4.1",
+    "pg": "^8.3.3",
+    "rsa-keypair": "^2.0.2",
+    "sqlite3": "^5.0.0",
+    "thai-id-card": "^0.0.15",
+    "uuid": "^8.3.1",
+    "xlsx": "^0.16.6"
+  },
+  "name": "etda-ssi-test",
+  "version": "1.0.0",
+  "main": "babel.config.js",
+  "repository": {
+    "type": "git",
+    "url": "git@gitlab.finema.co:finema/etda/ssi-core-api-test.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}

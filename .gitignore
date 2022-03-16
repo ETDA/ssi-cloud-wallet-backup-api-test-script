@@ -1,0 +1,15 @@
+node_modules
+yarn-error.log
+_res
+ocr_loadtest.spec.ts
+ocr_test.spec.ts
+test.js
+.idea
+.DS_Store
+.idea/inspectionProfiles/
+.idea/shelf/
+api/.DS_Store
+ocr
+/html-report
+package-lock.json
+yarn.lock
